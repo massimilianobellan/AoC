@@ -25,8 +25,6 @@ async function setup() {
   await createSolutionFile("part2");
 }
 
-console.log(`Created the files for year ${year} day ${day} `);
-
 async function createDirectory() {
   try {
     await mkdir(`src/${year}`);
@@ -59,3 +57,5 @@ async function createSolutionFile(name: string) {
 }
 
 setup();
+
+console.log(`Created the files for year ${year} day ${day} `);
