@@ -14,7 +14,7 @@ const numberMap = new Map([
 ]);
 
 function matchNumber(input: string, substring = 1) {
-  if (!isNaN(Number(input[0]))) return Number(input[0]);
+  if (Number(input[0])) return Number(input[0]);
   if (substring > input.length) return;
   if (numberMap.get(input.substring(0, substring))) {
     return numberMap.get(input.substring(0, substring));
