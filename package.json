@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "setup": "ts-node utils/setup.ts"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
