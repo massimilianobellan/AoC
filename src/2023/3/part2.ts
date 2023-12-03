@@ -71,10 +71,3 @@ function getNumber(row: string, index: number) {
 
 console.log(total);
 
-Number("0"); // -> 0
-
-// This does not give NaN(Not a number) or
-if (0) {
-  console.log("yoooo");
-}
-
