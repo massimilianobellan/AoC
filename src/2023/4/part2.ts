@@ -38,9 +38,6 @@ const data = input.split("\r\n").forEach((row, index) => {
       const cardNumeberToAdd = index + 2 + valueIndex;
       const copiesOfCardToAdd = copiesOfCards[cardNumeberToAdd];
       copiesOfCards[cardNumeberToAdd] = (copiesOfCardToAdd ?? 1) + 1;
-      if (cardNumeberToAdd === 6) {
-        console.log("Adding 1 to card 6 from", index + 1);
-      }
     });
     winners = [];
   }
